@@ -2,11 +2,11 @@
 
 	class Check {
 
-		public function returnTrue() {
+		public static function returnTrue() {
 			return true;
 		}
 
-		public function returnFalse() {
+		public static function returnFalse() {
 			return false;
 		}
 	}
