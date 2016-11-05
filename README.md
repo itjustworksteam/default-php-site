@@ -2,6 +2,8 @@
 a simple default site that we use to create a new website
 
 
+[![Build Status](https://travis-ci.org/itjustworksteam/default-php-site.svg?branch=master)](https://travis-ci.org/itjustworksteam/default-php-site)
+
  There is also a docker image that you can compile and run:
 
  ```
