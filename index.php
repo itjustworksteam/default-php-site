@@ -13,6 +13,10 @@
 		// the location of the site
 		//header("location: /site/");
 		//exit;
+		
+		// the location of the countdown
+		header("location: /temp/");
+		exit;
 	}
 
 ?>
