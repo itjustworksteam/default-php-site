@@ -1,0 +1,11 @@
+{
+  "name": "Countdown",
+  "description": "semplice Countdown",
+  "repository": "git@github.com:therickys93/default-php-site.git",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}

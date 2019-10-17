@@ -42,15 +42,15 @@ $(document).ready(function(){
  ----------------------------------------------------------------------
  */
     if($.find('#watch')[0]) {
-
+        var date = new Date();
         $('#watch').countDown({
             targetDate: {
-                'day': 		20,
-                'month': 	1,
-                'year': 	2016,
-                'hour': 	15,
-                'min': 		0,
-                'sec': 		0
+                'day': 		date.getDate(),
+                'month': 	date.getMonth(),
+                'year': 	1900 + date.getYear() + 1,
+                'hour': 	date.getHours(),
+                'min': 		date.getMinutes(),
+                'sec': 		date.getSeconds()
             },
             omitWeeks: true
         });
